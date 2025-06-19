@@ -1,0 +1,18 @@
+# Markdownlint configuration for knowledge base
+# See https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md for rule details
+
+default: true
+
+# MD013: Line length - Allow longer lines but set reasonable limit. Don't enforce in code and tables.
+MD013:
+  line_length: 120
+  code_blocks: false
+  tables: false
+
+# MD025: Multiple top-level headings - Disabled for knowledge base notes
+# Knowledge base notes often have multiple H1 headings (title + content sections)
+MD025: false
+
+# MD041: First line in file should be a top level heading - Disabled
+# Our notes start with YAML frontmatter, not headings
+MD041: false

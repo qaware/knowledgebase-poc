@@ -1,0 +1,8 @@
+{
+  "name": "knowledgebase-poc",
+  "version": "1.0.0",
+  "devDependencies": {
+    "markdownlint-cli": "^0.45.0",
+    "prettier": "3.5.3"
+  }
+}

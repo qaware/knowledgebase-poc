@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(make)",
+      "Bash(make check)",
+      "Bash(make format)",
+      "Bash(make lint-fix)"
+    ]
+  }
+}
